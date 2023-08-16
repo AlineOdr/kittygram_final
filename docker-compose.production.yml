@@ -18,6 +18,9 @@ services:
     volumes:
       - static_volume:/backend_static
       - media:/media
+    depends_on:
+      - db_kitty
+
   frontend:
     image: alinemr/kittygram_frontend  
     env_file: .env
