@@ -13,7 +13,6 @@ SECRET_KEY = 'django-insecure-cg6*%6d51ef8f#4!r3*$vmxm4)abgjw8mo!4y-q*uq1!4$-89$
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = os.getenv('HOSTNAMES', '127.0.0.1, localhost').split(',')
-ALLOWED_HOSTS = ['51.250.100.111', '127.0.0.1', 'localhost', 'kittygramaline.hopto.org']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
