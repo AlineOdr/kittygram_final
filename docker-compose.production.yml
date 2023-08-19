@@ -17,7 +17,7 @@ services:
     env_file: .env
     volumes:
       - static_volume:/backend_static
-      - media:/app/media/
+      - media:/app/media/cats/images
     depends_on:
       - db_kitty
 
@@ -32,6 +32,6 @@ services:
     env_file: .env
     volumes:
       - static_volume:/staticfiles/
-      - media:/app/media/
+      - media:/app/media/cats/images
     ports:
       - 9000:80
