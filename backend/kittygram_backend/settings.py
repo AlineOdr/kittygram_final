@@ -56,6 +56,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'kittygram_backend.wsgi.application'
 
 
+
 DATABASES = {
     'default': {
         # Меняем настройку Django: теперь для работы будет использоваться
